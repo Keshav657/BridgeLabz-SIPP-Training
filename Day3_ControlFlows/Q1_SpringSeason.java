@@ -1,6 +1,6 @@
-package Day3_ControlFlows.Level1;
+package Day3_ControlFlows;
 
-public class Q7_springSeason {
+public class Q1_SpringSeason {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Please provide month and day as command line arguments.");
@@ -12,6 +12,7 @@ public class Q7_springSeason {
 
         boolean isSpring = false;
 
+        // Check for Spring Season: March 20 to June 20
         if ((month == 3 && day >= 20 && day <= 31) ||
             (month == 4 && day >= 1 && day <= 30) ||
             (month == 5 && day >= 1 && day <= 31) ||
@@ -25,5 +26,4 @@ public class Q7_springSeason {
             System.out.println("Not a Spring Season");
         }
     }
-    
 }
