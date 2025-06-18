@@ -1,5 +1,3 @@
-package Day3_Arrays;
-
 import java.util.Scanner;
 
 public class LargestDigitDynamicArray {
