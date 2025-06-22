@@ -1,9 +1,9 @@
-
+// ZaraBonus.java
+import java.util.*;
 
 public class ZaraBonus {
-
-    static double[][] employeeData = new double[10][2]; // [][0] = salary, [][1] = years of service
-    static double[][] updatedData = new double[10][3]; // [][0]=old salary, [1]=bonus, [2]=new salary
+    static double[][] employeeData = new double[10][2];
+    static double[][] updatedData = new double[10][3];
 
     public static void main(String[] args) {
         generateEmployeeData();
@@ -13,8 +13,8 @@ public class ZaraBonus {
 
     static void generateEmployeeData() {
         for (int i = 0; i < 10; i++) {
-            double salary = 10000 + Math.random() * 90000; // 5-digit salary
-            int years = (int) (Math.random() * 11); // 0 to 10 years
+            double salary = 10000 + Math.random() * 90000;
+            int years = (int) (Math.random() * 11);
             employeeData[i][0] = salary;
             employeeData[i][1] = years;
         }
