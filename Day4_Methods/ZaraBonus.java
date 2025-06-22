@@ -1,5 +1,4 @@
 // ZaraBonus.java
-import java.util.*;
 
 public class ZaraBonus {
     static double[][] employeeData = new double[10][2];
