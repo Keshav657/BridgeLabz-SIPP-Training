@@ -23,3 +23,5 @@ public class FizzBuzz {
         } else {
             System.out.println("Please enter a positive integer.");
         }
+    }
+}
